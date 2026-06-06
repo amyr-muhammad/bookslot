@@ -20,19 +20,19 @@ const LivePreview = () => {
                     </div>
 
                     <div className="p-4 text-gray-300">
-                        <h4>SERVICES</h4>
+                        <h4 className="text-sm sm:text-base">SERVICES</h4>
                         <ul className="p-3">
-                            <li className="flex justify-between bg-gray-900 rounded-xl p-2 px-4">
+                            <li className="flex justify-between bg-gray-900 rounded-xl p-2 px-4 text-sm sm:text-base">
                                 <p>Service Name</p>
                                 <p className="text-green-600 ">Rs —</p>
                             </li>
                         </ul>
 
                         <div className="px-3">
-                            <button className={`${btn} flex justify-center items-center`}> <FaWhatsapp className="me-1"/> Book on WhatsApp</button>
-                            <span className="grid grid-cols-2 gap-3 mt-3">
-                                <button className={`${btn} flex justify-center items-center`}><FaRegCopy className="me-1"/> Copy Link</button>
-                                <button className={`${btn} flex justify-center items-center`}><PiShareFat className="me-1"/> Share</button>
+                            <button className={`${btn} flex justify-center items-center text-sm sm:text-base`}> <FaWhatsapp className="me-1"/> Book on WhatsApp</button>
+                            <span className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3">
+                                <button className={`${btn} flex justify-center items-center text-sm sm:text-base`}><FaRegCopy className="me-1"/> Copy Link</button>
+                                <button className={`${btn} flex justify-center items-center text-sm sm:text-base`}><PiShareFat className="me-1"/> Share</button>
                             </span>
                         </div>
                     </div>

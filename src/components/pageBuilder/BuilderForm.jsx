@@ -25,10 +25,10 @@ const BuilderForm = () => {
                     <input type="text" id="timing" placeholder="9-5" className={`w-full ${commonStyle}`} />
 
                     <label htmlFor="service" className={commonStyle2}>Add a service</label>
-                    <span className="grid grid-cols-3 gap-3">
+                    <span className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         <input type="text" id="service" placeholder="Hair Cut" className={commonStyle} />
                         <input type="number" id="service" placeholder="RS-500" className={commonStyle} />
-                        <button className=" bg-orange-600 px-6 py-1.5 rounded-md  cursor-pointer" >Add service</button>
+                        <button className=" bg-orange-600 px-6 py-1.5 rounded-md cursor-pointer w-full sm:w-auto" >Add service</button>
                     </span>
                 </form>
             </section>
