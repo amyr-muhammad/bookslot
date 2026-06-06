@@ -28,7 +28,7 @@ const BuilderForm = () => {
                     <span className="grid grid-cols-3 gap-3">
                         <input type="text" id="service" placeholder="Hair Cut" className={commonStyle} />
                         <input type="number" id="service" placeholder="RS-500" className={commonStyle} />
-                        <button className="bg-orange-600 px-6 py-1.5 rounded-md  cursor-pointer" >Add service</button>
+                        <button className=" bg-orange-600 px-6 py-1.5 rounded-md  cursor-pointer" >Add service</button>
                     </span>
                 </form>
             </section>
