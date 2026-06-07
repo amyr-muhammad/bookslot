@@ -1,4 +1,4 @@
-import BuilderForm from "./BuilderForm";
+import BuilderForm from "./PageForm";
 import LivePreview from "./LivePreview";
 
 const PageBuilder = () => {
