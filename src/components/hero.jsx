@@ -13,7 +13,7 @@ const Hero = () => {
                     <p className="bg-amber-50 text-orange-600 rounded-2xl px-5 py-0.5 w-fit font-[470] text-center flex justify-between items-center mb-3"> <HiOutlineBolt /> For local businesses in Pakistan</p>
                     <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl mb-5 text-amber-50">Your shop online in <span className="text-orange-600">5 minutes</span></h2>
                     <p className="text-base md:text-lg lg:text-xl mb-5 text-gray-300">No website. No developer. Just fill a form and get a shareable booking page your
-                        customers can open on Online, Showcase your services without hustle. Fast, Easy and Secure.</p>
+                        customers can open Online, Showcase your services without hustle. Fast, Easy and Secure.</p>
                     <button className="bg-orange-600 px-6 py-2 rounded-3xl cursor-pointer hover:bg-orange-700 transition-colors" onClick={handleScroll}>Build your page free</button>
                 </section>
                 <section className="flex justify-center items-center w-full">
