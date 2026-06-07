@@ -1,8 +1,20 @@
 @import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css"; 
 
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: #030712;
+}
+
+
+:root {
+  --toastify-color-dark: #030712;
+  
+  --toastify-color-success: #030712;
+
+  --toastify-text-color-light: #D1D5DC;
+  
+  --toastify-color-progress-success: #FF6900;
 }
